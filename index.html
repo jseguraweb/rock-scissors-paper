@@ -15,12 +15,12 @@
     <h1>Rock Scissors Paper</h1>
     <main class="field">
         <div class="user">
-            <div class="selected-weapon one">
+            <div class="selected-weapon user-weapon">
             </div>
         </div>
         <img id="lightning" src="./img/lightning.png" alt="">
         <div class="computer">
-            <div class="selected-weapon two">
+            <div class="selected-weapon computer-weapon">
             </div>
         </div>
         <div class="weapon-list">
@@ -35,6 +35,21 @@
             </div>
         </div>
     </main>
+    <div class="result-background win">
+        <img class="meme" src="./img/you-won.png" alt="">
+        <p class="message">YOU WON!</p>
+        <button class="play-again" type="button">PLAY AGAIN</button>
+    </div>
+    <div class="result-background lost">
+        <img class="meme" src="./img/you-lost.png" alt="">
+        <p class="message">YOU LOST!</p>
+        <button class="play-again" type="button">PLAY AGAIN</button>
+    </div>
+    <div class="result-background draw">
+        <img class="meme" src="./img/draw.png" alt="">
+        <p class="message">DRAW!</p>
+        <button class="play-again" type="button">PLAY AGAIN</button>
+    </div>
     <script src="app.js"></script>
 </body>
 
